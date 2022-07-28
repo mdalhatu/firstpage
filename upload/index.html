@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" lang="en">
+	<title>Practice</title>
+	<style type="text/css">
+		#h1{
+			text-align: center;
+			background: white;
+			background-color: brown;
+			padding: 10px;
+		}
+		#firstParagraph{
+			text-align: center;
+			background-color: brown;
+			padding: 10px;
+		}
+		#secondParagraph{
+			text-align: center;
+			background-color: brown;
+			padding: 10px;
+		}
+		#thirdParagraph{
+			text-align: center;
+			background-color: brown;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="h1">My Practice Page</h1>
+	<a href="try.html"> Go to try page</a>
+	<br>
+	<table>
+		<thead>
+			<tr>
+				<th> Faculty</th>
+				<th>CGPA</th>
+				<th>DOE</th>
+				<th>DOG</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Natural=Science</td>
+				<td>4.0</td>
+				<td>2018</td>
+				<td>2022</td>
+			</tr>
+			<tr>
+				<td>Humanities</td>
+				<td>3.5</td>
+				<td>2017</td>
+				<td>2022</td>
+			</tr>
+		</tbody>
+	</table>
+	<hr>
+	<form action="process.php" method="POST">
+		<div>
+			<label> First Name</label>
+			<input type="text" name="firstName" placeholder="Enter First Name">
+		</div>
+
+		<br>
+		<div>
+			<label> Last Name</label>
+			<input type="text" name="lastName" placeholder="Enter Last Name">
+		</div>
+
+		<br>
+		<div>
+			<label> Email</label>
+			<input type="email" name="email">
+		</div>
+
+		<br>
+		<div>
+			<label>Password</label>
+			<input type="password" name="password">
+		</div>
+
+		<br>
+		<div>
+			<label> Age: </label>
+			<input type="number" name="age" placeholder="Enter Age">
+		</div>
+
+		<br>
+		<div>
+			<label> Birthday</label>
+			<input type="date" name="birthday">
+		</div>
+		<br>
+
+		<div>
+			<label> Gender</label>
+			<select name=gender>
+				<option value="male">Male</option>
+				<option value="firstName">Female</option>
+			</select>
+		</div>
+		<br>
+
+		<div>
+			<label>File(pdf/word)</label>
+			<input type="file" name="file" placeholder="Choose File:">
+		</div>
+		<br>
+
+		<div>
+			<label>Message</label>
+			<textarea maxlength="1000" placeholder="Not More Than 1000 Words"></textarea>
+		</div>
+
+		<br>
+		<input type="submit" name="submit" value="submit">
+	</form>
+	<button>Click Me</button>
+	<hr>
+
+	<section> <h3 id="firstParagraph"> First paragraph</h3>
+		<article>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit</strong>, sed do eiusmod.
+		tempor <em>incididunt ut labore</em> et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud <a href="h1.html">exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. <a href="google.com" target="_blank">Duis aute irure dolor in reprehenderit</a>in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</article>
+	</section>
+	<br>
+
+	<section> <h3 id="secondParagraph"> Second Paragraph</h3>
+		<article> 
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		<figure> 
+			<img src="images/bird.jpg" alt="picture of a bird" width="20%" >
+			<figcaption> A pretty little bird chilling on a tree</figcaption>
+		</figure>
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</article>
+	</section>
+	<br>
+
+	<section> <h3 id="thirdParagraph"> Third Paragraph</h3>
+		<article> 
+			<blockquote cite="http://traversymedia.com">Lorem ipsum dolor sit amet,</blockquote>consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse. The
+			 <abbr title="World Wide Web">www</abbr> is awseome  , isn't it? colore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt molliillum dt anim id est laborum.
+		</article>
+	</section>
+
+	<nav> <h5>Categories</h5>
+		<ul>
+			<li><a href="#"> Category 1 </a></li>
+			<li><a href="#"> Category 2</a></li>
+			<li><a href="#"> Category 3 </a></li>
+			<li><a href="#"> Category 4 </a></li>
+		</ul>
+	</nav>
+	<br>
+
+	<pre>
+		Show your excitement
+		Display your talent
+		Be visible😁 
+
+	</pre>
+
+	<div> <h3> Check out the Lyrics for this song</h3>
+		<video src="videos/bargain.mp4" width="400" controls> Your browser does not supoort this<code>video</code>
+		</video>
+	</div>
+
+	<div> <h3> Some Cool Songs</h3>
+
+		<!-- the audio is set to start playing from the 42sec-->
+
+		<audio src="audio/normaly.mp3#t=43" controls></audio>
+		<audio src="audio/letHerGo.mp3" controls></audio>
+	</div>
+	<hr>
+
+	<caption>Parent/Child Table</caption>
+	<table border="1">
+		<thead>
+			<tr>
+				<th> Child's Name</th>
+				<th> Parent's Name</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan="2"> Mohammed Dalhatu</td>
+				<td> Dalhatu Musa</td>
+			</tr>
+				<td> Ramatu Dalhatu</td>
+			<tr>
+				<td> Abdullahi Isah</td>
+				<td>Isah Ibrahim</td>
+			</tr>	
+			<tr>	
+				<td rowspan="2"> Aisha Billy</td>
+				<td>Billy Ibro</td>
+			</tr>
+				<td>Kad Ibro</td>
+		</tbody>
+	</table>
+
+	<hr>
+	<iframe src="file:///C:/Users/moham/OneDrive/Desktop/webdevelopment/html/sure.html" width="200px"></iframe><br />
+	<br>	
+	
+	<footer>
+		<div>
+			<a href="https://www.instagram.com/mohammed_rapha/">Instagram </a>
+			<br>
+			<a href="https://twitter.com/Mohammed_raphaa">Twitter</a>
+		</div>
+		<br>
+
+		<div> Copyright &copy; 2022</div>
+	</footer>
+
+	<div style="margin-top: 300px;"></div>
+
+</body>
+</html>
